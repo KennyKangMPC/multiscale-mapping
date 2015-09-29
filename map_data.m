@@ -220,4 +220,6 @@ for d = 1:length(z)
     save(strcat('mapped_var_sserr_',num2str(d),'.mat'),'ss_err_anom','ss_err_anls');
 end
 
+%% run combine_maps.m to combine all mapped variables into one matrix and all mapping uncertainities into one matrix
+
     

@@ -25,8 +25,6 @@ for i = 1:N
     latC(i) = Xmn(1);
     
 end
-lonC(lonC < -80) = lonC(lonC < -80)+360;
-lonC(lonC < -70 & latC < 10) = lonC(lonC < -70 & latC < 10)+360;
 
 % calculate min distance between centers
 
